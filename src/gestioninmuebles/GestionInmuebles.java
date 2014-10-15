@@ -5,11 +5,8 @@
  */
 package gestioninmuebles;
 
-import DataBase.DataBaseInmuebles;
 import Dominio.Inmueble;
 import Dominio.TipoInmueble;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -58,7 +55,7 @@ static final int MAXINMUEBLES=2;
                                 nuevoInmueble.setTipoInmueble(TipoInmueble.PARQUEADERO);
                                 break;
                             default:
-                                nuevoInmueble.setTipoInmueble(TipoInmueble.PARQUEADERO);
+                                nuevoInmueble.setTipoInmueble(TipoInmueble.CUARTOUTIL);
                         }
                         inmuebles[tam]=nuevoInmueble;
                         //nuevoDataBase.CrearInmuebles(nuevoInmueble,tam);
